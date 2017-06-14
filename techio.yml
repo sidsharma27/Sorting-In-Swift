@@ -3,7 +3,10 @@ plan:
   - title: Sorting Overview
     statement: markdowns/overview.md
   - title: Bubble Sort
-    statement: markdowns/bubbleSort.md
+    statement: markdowns/bubbleSort.md  
+  - title: Insertion Sort
+    statement: markdowns/insertionSort.md
+
 projects:
   playground-zhwphpvi:
      root: /sorting
