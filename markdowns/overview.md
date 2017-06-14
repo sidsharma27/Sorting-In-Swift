@@ -7,13 +7,13 @@ This course helps you get started with sorting algorithms in Swift.
 * Selection Sort
 * Merge Sort
 
-## <em>What is Big-O notation?</em>
+## <strong>What is Big-O notation?</strong>
 
 Big-O notation is a way to tell how well an algorithm scales as the # of elements increase. In other words, how efficient the algorithm is as the data scales. When you are measuring the performance of a sorting algorithm, you compare the worst-case scenario (the longest amount of time the method can take to sort an array).
 
 ![Big-O Notation](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Comparison_computational_complexity.svg/2000px-Comparison_computational_complexity.svg.png)
 
-## <em>Complexities</em>
+## <strong>Complexities</strong>
 
 ##### O(n!)
 Factorial Complexity - 
