@@ -1,6 +1,12 @@
-title : Base template
+title : Sorting In Swift
 plan:
-  - title: Part 1
-    statement: markdowns/part1.md
-  - title: Part 2
-    statement: markdowns/part2.md
+  - title: Sorting Overview
+    statement: markdowns/overview.md
+  - title: Bubble Sort
+    statement: markdowns/bubbleSort.md
+projects:
+  playground-zhwphpvi:
+     root: /sorting
+     runner:
+       name: swift
+       version: 3.1.0
