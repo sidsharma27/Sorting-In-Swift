@@ -6,4 +6,4 @@ For example:
 ![Bubble Sort](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
 
 
-@[Add the code to sort the array using the Bubble Sort algorithm]({"stubs": ["bubbleSort/Sources/bubbleSort.swift"], "command": "/bin/bash bubbleSort/run.sh"})
+@[Add the code to sort the array using the Bubble Sort algorithm]({"stubs": ["bubbleSort/Sources/bubbleSort.swift"], "command": "/bin/bash bubbleSort.sh"})
