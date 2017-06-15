@@ -27,7 +27,6 @@ func selsrtI(lst)
 end func
 ```
 
-For example:
 ![Selection Sort](https://upload.wikimedia.org/wikipedia/commons/0/07/Udtag_sort_001.PNG)
 
 

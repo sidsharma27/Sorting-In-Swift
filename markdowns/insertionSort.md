@@ -17,7 +17,6 @@ for i from 1 to N
    a[j+1] = key
 ```
 
-For example:
 ![Insertion Sort](https://upload.wikimedia.org/wikipedia/commons/b/b1/Insertion-sort.svg)
 
 
