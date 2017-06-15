@@ -1,4 +1,5 @@
-Bubble Sort:
+## Bubble Sort:
+
 ```swift
 func bubbleSort(array: [Int]) -> [Int] {
     var arr = array 
@@ -16,7 +17,8 @@ func bubbleSort(array: [Int]) -> [Int] {
 }
 ```
 
-Insertion Sort:
+## Insertion Sort:
+
 ```swift
 func insertionSort(array: [Int]) -> [Int] {
     var arr = array
@@ -31,7 +33,8 @@ func insertionSort(array: [Int]) -> [Int] {
 }
 ```
 
-Selection Sort: 
+## Selection Sort: 
+
 ```swift
 func selectionSort(array array: [Int]) - > [Int] {
     guard array.count > 1 else { return array } 

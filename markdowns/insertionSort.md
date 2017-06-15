@@ -6,8 +6,19 @@ This process of comparing adjacent elements continues throughout the array until
 Best-Case Complexity: О(n) 
 Worst-Case Complexity: О(n^2) 
 
+Psuedo Code:
+```
+for i from 1 to N
+   key = a[i]
+   j = i - 1
+   while j >= 0 and a[j] > key
+      a[j+1] = a[j]
+      j = j - 1
+   a[j+1] = key
+```
+
 For example:
-![Insertion Sort](https://en.wikipedia.org/wiki/File:Insertion-sort-example-300px.gif)
+![Insertion Sort](https://upload.wikimedia.org/wikipedia/commons/b/b1/Insertion-sort.svg)
 
 
 @[Add the code to sort the array using the Insertion Sort algorithm]({"stubs": ["insertionSort/Sources/insertionSort.swift"], "command": "/bin/bash insertionSort.sh"})

@@ -5,8 +5,30 @@ Selection Sort is a sorting algorithm that goes through an unsorted array, finds
 Best-Case Complexity: О(n^2) 
 Worst-Case Complexity: О(n^2) 
 
+Psuedo Code
+```
+func selsrtI(lst)
+    max = length(lst) - 1
+
+    for i from 0 to max
+        key = lst[i]
+        keyj = i
+
+        for j from i+1 to max
+            if lst[j] < key
+                key = lst[j]
+                keyj = j
+
+        lst[keyj] = lst[i]
+        lst[i] = key
+
+    return lst
+
+end func
+```
+
 For example:
-![Selection Sort](https://en.wikipedia.org/wiki/File:Selection-Sort-Animation.gif)
+![Selection Sort](https://upload.wikimedia.org/wikipedia/commons/0/07/Udtag_sort_001.PNG)
 
 
 @[Add the code to sort the array using the Insertion Sort algorithm]({"stubs": ["selectionSort/Sources/selectionSort.swift"], "command": "/bin/bash selectionSort.sh"})
