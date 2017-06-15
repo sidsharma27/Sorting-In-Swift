@@ -2,18 +2,19 @@
 
 ```swift
 func bubbleSort(array: [Int]) -> [Int] {
-    for index in 0...array.count { 
-        for value in 1...array.count-2 {  
-            if arr[value-1] > arr[value] {
-                let largerValue = arr[value-1]
-                arr[value-1] = arr[value]
-                arr[value] = largerValue
+        var arr = array 
+        for _ in 0...arr.count {
+            for value in 1...arr.count-1 {
+                if arr[value-1] > arr[value] {
+                    let largerValue = arr[value-1]
+                    arr[value-1] = arr[value]
+                    arr[value] = largerValue
+                }
             }
         }
+        print("Sorted\(arr)")
+        return arr
     }
-    print("Sorted\(arr)")
-    return arr
-}
 ```
 
 ## Insertion Sort:
