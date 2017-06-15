@@ -1,6 +1,6 @@
 # Sorting in Swift
 
-This course helps you get started with sorting algorithms in Swift.
+<h3>This course helps you get started with sorting algorithms in Swift.</h3>
 
 * Bubble Sort
 * Insertion Sort
