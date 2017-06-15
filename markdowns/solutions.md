@@ -62,7 +62,7 @@ func merge(arr1: [Int], arr2: [Int]) -> [Int] {
     var sortedSublist = [Int]()
     
     while arr1Index < arr1.count && arr2Index < arr2.count {
-        if arr1[arr1Index] < arr2[arr1Index] { 
+        if arr1[arr1Index] < arr2[arr2Index] { 
             sortedArray.append(arr1[arr1Index])
             arr1Index += 1
         } else if arr1[arr1Index] > arr2[arr2Index] {
