@@ -1,6 +1,6 @@
 # Sorting in Swift
 
-<h3>This course helps you get started with sorting algorithms in Swift.</h3>
+<h2>This course helps you get started with sorting algorithms in Swift.</h2>
 
 * Bubble Sort
 * Insertion Sort
@@ -19,11 +19,11 @@ Big-O notation is a way to tell how well an algorithm scales as the # of element
 Factorial Complexity - 
 Example: Say a sorting algorithm has a factorial complexity. If there are 10 elements in the array, it will take 3628800 steps (10! or 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1) to sort the array. 
 
-#### O(2^n)
+#### O(2<sup>n</sup>)
 Exponential Complexity - 
 Example: Say a sorting algorithm has a exponential complexity. If there are 10 elements in the array, it will take 1024 steps (2^10) to sort the array. 
 
-#### O(n^2)
+#### O(n<sup>2</sup>)
 Quadratic Complexity
 Example: Say a sorting algorithm has a quadratic complexity. If there are 10 elements in the array, it will take 100 steps (10^2) to sort the array. 
 
