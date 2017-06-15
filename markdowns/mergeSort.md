@@ -7,13 +7,14 @@ Merge Sort is a sorting algorithm that divides the array into two parts, right d
 [3,4,5,1] [0,8,1]
 [3,4] [5,1] [0,8] [1]
 [3][4][5][1][0][8][1]
-[3,4] [1][5] [0,8][1]
+[3,4][5,1][0,8][1]
+[3,4][1,5][0,8][1]
 [1,3,4,5] [0,1,8]
 [0,1,1,3,4,5,8]
 ```
 
-Best-Case Complexity: О(n) 
-Worst-Case Complexity: О(n^2) 
+Best-Case Complexity: O(n log(n))
+Worst-Case Complexity: O(n log(n)) 
 
 [Psuedo Code:](http://www.algorithmist.com/index.php/Merge_sort)
 ```

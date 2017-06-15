@@ -2,6 +2,21 @@
 
 Bubble sort is a very basic sorting algorithm. It is used by starting at the beginning of an array and comparing the first couple elements. The elements are only swapped if the first element has a greater value than the second element. This process of comparing adjacent elements continues throughout the array until the end has been reached & iterates again from the 0th index until the array has been sorted. This sorting algorithm is never used outside of learning purposes as it is much to slow to be implemented in live code.
 
+```
+[3,4,5,1,0,8,1]
+[3,4,1,5,0,8,1]
+[3,4,1,0,5,8,1]
+[3,4,1,0,5,1,8]
+[3,1,4,0,5,1,8]
+[3,1,0,4,5,1,8]
+[3,1,0,4,1,5,8]
+[1,3,0,4,1,5,8]
+[1,0,3,4,1,5,8]
+[1,0,3,1,4,5,8]
+[0,1,3,1,4,5,8]
+[0,1,1,3,4,5,8]
+```
+
 Best-Case Complexity: О(n) 
 Worst-Case Complexity: О(n^2) 
 
