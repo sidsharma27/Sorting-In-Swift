@@ -5,7 +5,7 @@ Selection Sort is a sorting algorithm that goes through an unsorted array, finds
 Best-Case Complexity: О(n^2) 
 Worst-Case Complexity: О(n^2) 
 
-Psuedo Code
+[Psuedo Code](http://www.algorithmist.com/index.php/Selection_sort)
 ```
 func selsrtI(lst)
     max = length(lst) - 1

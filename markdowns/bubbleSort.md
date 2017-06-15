@@ -5,7 +5,7 @@ Bubble sort is a very basic sorting algorithm. It is used by starting at the beg
 Best-Case Complexity: О(n) 
 Worst-Case Complexity: О(n^2) 
 
-Psuedo Code:
+[Psuedo Code:](http://www.algorithmist.com/index.php/Bubble_sort)
 ```
 func bubblesort( var a as array )
     for i from 1 to N

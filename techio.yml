@@ -7,7 +7,9 @@ plan:
   - title: Insertion Sort
     statement: markdowns/insertionSort.md
   - title: Selection Sort
-    statement: markdowns/selectionSort.md
+    statement: markdowns/selectionSort.md  
+  - title: Merge Sort
+    statement: markdowns/mergeSort.md
   - title: Solutions
     statement: markdowns/solutions.md
 

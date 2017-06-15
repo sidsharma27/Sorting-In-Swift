@@ -6,7 +6,7 @@ This process of comparing adjacent elements continues throughout the array until
 Best-Case Complexity: О(n) 
 Worst-Case Complexity: О(n^2) 
 
-Psuedo Code:
+[Psuedo Code:](http://www.algorithmist.com/index.php/Insertion_sort)
 ```
 for i from 1 to N
    key = a[i]
