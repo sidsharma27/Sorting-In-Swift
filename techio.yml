@@ -6,6 +6,11 @@ plan:
     statement: markdowns/bubbleSort.md  
   - title: Insertion Sort
     statement: markdowns/insertionSort.md
+  - title: Selection Sort
+    statement: markdowns/selectionSort.md
+  - title: Solutions
+    statement: markdowns/solutions.md
+
 
 projects:
   playground-zhwphpvi:
