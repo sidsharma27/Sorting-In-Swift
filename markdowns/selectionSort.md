@@ -9,4 +9,4 @@ For example:
 ![Selection Sort](https://en.wikipedia.org/wiki/File:Selection-Sort-Animation.gif)
 
 
-@[Add the code to sort the array using the Insertion Sort algorithm]({"stubs": ["selection/Sources/selectionSort.swift"], "command": "/bin/bash selectionSort.sh"})
+@[Add the code to sort the array using the Insertion Sort algorithm]({"stubs": ["selectionSort/Sources/selectionSort.swift"], "command": "/bin/bash selectionSort.sh"})
