@@ -3,5 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "bubbleSort"
+    name: "bubbleSort",
+    dependencies: [
+        .Package(url: "https://github.com/nsomar/FileUtils", versions: Version(0, 1, 1)..<Version(0, .max, .max))
+    ]
 )

@@ -1,6 +1,6 @@
 import XCTest
 @testable import bubbleSort
-
+import FileUtils
 class bubbleSortTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
@@ -10,6 +10,8 @@ class bubbleSortTests: XCTestCase {
     }
 
     override func tearDown() {
+        let path = Path.currentDirectory
+        print("Path: \(path)")
         if let path = Bundle.main.path(forResource: "bubbleSort", ofType: "swift") {
             do {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
