@@ -9,6 +9,10 @@ class bubbleSortTests: XCTestCase {
         XCTAssertEqual(bubbleSort().bubbleSort(array: [18,22,23,20,-20,2,3,14]), [-20, 2, 3, 14, 18, 20, 22, 23])
     }
 
+    func tearDown() {
+
+        print("TECHIO> message --channel yo")
+    }
 
     static var allTests = [
         ("testExample", testExample),
