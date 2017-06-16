@@ -10,6 +10,15 @@ class bubbleSortTests: XCTestCase {
     }
 
     override func tearDown() {
+        if let path = Bundle.main.path(forResource: "bubbleSort", ofType: "swift") {
+            do {
+                let data = try String(contentsOfFile: path, encoding: .utf8)
+                let myStrings = data.components(separatedBy: .newlines)
+                print(myStrings.joined(separator: ", "))
+            } catch {
+                print(error)
+            }
+}
 
         print("TECHIO> message --channel yo")
     }
