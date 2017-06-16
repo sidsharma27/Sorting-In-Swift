@@ -12,7 +12,7 @@ class bubbleSortTests: XCTestCase {
     override func tearDown() {
         if Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
             do {
-                let content = File.read("/project/target/bubbleSort/Sources/bubbleSort.swift")
+                let content = File.read(atPath: "/project/target/bubbleSort/Sources/bubbleSort.swift")
                 print(content)
             } catch {
                 print(error)
