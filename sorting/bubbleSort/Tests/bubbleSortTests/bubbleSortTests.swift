@@ -10,15 +10,15 @@ class bubbleSortTests: XCTestCase {
     }
 
     override func tearDown() {
+
             
-        let exists = Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift")
-        print("It exists \(exists)")
-        /*if exists != nil {
-            if let path = Bundle.main.path(forResource: "bubbleSort", ofType: "swift") {
+
+        if exists != nil {
+            if let exists = Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
             do {
-                let data = try String(contentsOfFile: path, encoding: .utf8)
-                let myStrings = data.components(separatedBy: .newlines)
-                print(myStrings.joined(separator: ", "))
+                print("It exists \(exists)")
+                let content = File.read("/project/target/bubbleSort/Sources/bubbleSort.swift")
+                print(content)
             } catch {
                 print(error)
             }
