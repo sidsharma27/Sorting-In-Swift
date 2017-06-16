@@ -10,11 +10,7 @@ class bubbleSortTests: XCTestCase {
     }
 
     override func tearDown() {
-
-            
-
-        if exists != nil {
-            if let exists = Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
+        if let exists = Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
             do {
                 print("It exists \(exists)")
                 let content = File.read("/project/target/bubbleSort/Sources/bubbleSort.swift")
@@ -22,10 +18,8 @@ class bubbleSortTests: XCTestCase {
             } catch {
                 print(error)
             }
-}
-
         }
-        */
+        
         print("TECHIO> message --channel yo")
     }
 
