@@ -10,9 +10,8 @@ class bubbleSortTests: XCTestCase {
     }
 
     override func tearDown() {
-        if let exists = Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
+        if Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
             do {
-                print("It exists \(exists)")
                 let content = File.read("/project/target/bubbleSort/Sources/bubbleSort.swift")
                 print(content)
             } catch {
