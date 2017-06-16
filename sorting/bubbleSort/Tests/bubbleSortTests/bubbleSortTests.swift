@@ -10,9 +10,11 @@ class bubbleSortTests: XCTestCase {
     }
 
     override func tearDown() {
-        let path = Path.currentDirectory
-        print("Path: \(path)")
-        if let path = Bundle.main.path(forResource: "bubbleSort", ofType: "swift") {
+        let path = Path.currentDirectory.
+        let exists = Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift")
+        print(exists)
+        /*if exists != nil {
+            if let path = Bundle.main.path(forResource: "bubbleSort", ofType: "swift") {
             do {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
                 let myStrings = data.components(separatedBy: .newlines)
@@ -22,6 +24,8 @@ class bubbleSortTests: XCTestCase {
             }
 }
 
+        }
+        */
         print("TECHIO> message --channel yo")
     }
 
