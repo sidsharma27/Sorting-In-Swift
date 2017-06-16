@@ -10,7 +10,9 @@ class bubbleSortTests: XCTestCase {
     }
 
     override func tearDown() {
-        let content = String.read(contentsOfFile: "/project/target/bubbleSort/Sources/bubbleSort.swift")
+        
+
+        let content = File.read(atPath: "/project/target/bubbleSort/Sources/bubbleSort.swift")
         print(content)
         /*if exists != nil {
             if let path = Bundle.main.path(forResource: "bubbleSort", ofType: "swift") {
