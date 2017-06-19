@@ -8,7 +8,7 @@ class bubbleSortTests: XCTestCase {
         XCTAssertEqual(bubbleSort().bubbleSort([3,1,2]), [1, 2, 3])
         XCTAssertEqual(bubbleSort().bubbleSort([18,22,23,20,-20,2,3,14]), [-20, 2, 3, 14, 18, 20, 22, 23])
     }
-
+    /*
     override func tearDown() {
         if Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
             do {
@@ -18,7 +18,6 @@ class bubbleSortTests: XCTestCase {
                 else {
                     let content = try File.read(atPath: "/project/target/bubbleSort/Sources/bubbleSort.swift")
                     let noWhiteSpace = content.replacingOccurrences(of: " ", with: "")
-                    
 
                     if noWhiteSpace.range(of:"for_in0...arr.count") != nil && noWhiteSpace.range(of:"forvaluein1...arr.count-1")  != nil { 
                         print("TECHIO> message --channel Sucess! 🎊 Bubble Sort Verified 🎊");
@@ -32,7 +31,7 @@ class bubbleSortTests: XCTestCase {
             }
         }
     }
-
+    */
     static var allTests = [
         ("testExample", testExample),
     ]
