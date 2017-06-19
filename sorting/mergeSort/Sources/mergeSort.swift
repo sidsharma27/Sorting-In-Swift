@@ -1,5 +1,5 @@
 struct mergeSort {
-    func mergeSort(array: [Int]) -> [Int] {
+    func mergeSort(_ array: [Int]) -> [Int] {
 
     }
 }

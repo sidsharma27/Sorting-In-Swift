@@ -1,5 +1,5 @@
 struct selectionSort {
-    func selectionSort(array: [Int]) - > [Int] {
+    func selectionSort(_ array: [Int]) - > [Int] {
         
     }
 }

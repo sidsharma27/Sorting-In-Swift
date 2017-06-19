@@ -18,7 +18,7 @@ class bubbleSortTests: XCTestCase {
                 else {
                     let content = try File.read(atPath: "/project/target/bubbleSort/Sources/bubbleSort.swift")
                     let noWhiteSpace = content.trimmingCharacters(in: .whitespaces)
-                    if noWhiteSpace.range(of:"for_in0...arr.count") != nil && noWhiteSpace.range(of:"forvaluein1...arr.count-1") { 
+                    if noWhiteSpace.range(of:"for_in0...arr.count") && noWhiteSpace.range(of:"forvaluein1...arr.count-1") { 
                         print("TECHIO> message --channel Sucess! 🎊 Bubble Sort Verified 🎊");
                     }
                     else {

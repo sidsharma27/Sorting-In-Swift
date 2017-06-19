@@ -1,4 +1,4 @@
 struct bubbleSort {
-    func bubbleSort(array: [Int]) -> [Int] {
+    func bubbleSort(_ array: [Int]) -> [Int] {
     }
 }
