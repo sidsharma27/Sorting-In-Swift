@@ -1,7 +1,7 @@
 ## Bubble Sort:
 
 ```swift
-func bubbleSort(array: [Int]) -> [Int] {
+    func bubbleSort(_ array: [Int]) -> [Int] {
         var arr = array 
         for _ in 0...arr.count {
             for value in 1...arr.count-1 {
@@ -20,7 +20,7 @@ func bubbleSort(array: [Int]) -> [Int] {
 ## Insertion Sort:
 
 ```swift
-func insertionSort(array: [Int]) -> [Int] {
+func insertionSort(_ array: [Int]) -> [Int] {
     var arr = array
     for x in 1..<arr.count {
         var y = x
@@ -36,21 +36,23 @@ func insertionSort(array: [Int]) -> [Int] {
 ## Selection Sort: 
 
 ```swift
-func selectionSort(array array: [Int]) - > [Int] {
-    guard array.count > 1 else { return array } 
-    var arr = array
-    for x in 0.. < arr.count - 1 { 
+func selectionSort(_ array: [Int]) -> [Int] {
+    guard array.count > 1 else { return array }  
+
+    var arr = array                    
+
+    for x in 0 ..< arr.count - 1 {  
         var lowest = x
-        for y in x + 1.. < arr.count { 
+        for y in x + 1 ..< arr.count {
             if arr[y] < arr[lowest] {
                 lowest = y
             }
         }
         if x != lowest {
-            swap( & arr[x], & arr[lowest])
+            swap(&arr[x], &arr[lowest])
         }
     }
-    return a
+    return arr
 }
 ```
 
@@ -91,7 +93,7 @@ func merge(arr1: [Int], arr2: [Int]) -> [Int] {
 }
 
 
-func mergeSort(array: [Int]) -> [Int] {
+func mergeSort(_ array: [Int]) -> [Int] {
     guard array.count > 1 else { return array }
     
     let cutIndex = array.count / 2
