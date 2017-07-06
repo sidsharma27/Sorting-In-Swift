@@ -21,7 +21,8 @@ Best-Case Complexity: О(n)
 Worst-Case Complexity: О(n^2) 
 
 [Psuedo Code:](http://www.algorithmist.com/index.php/Bubble_sort)
-```
+
+```swift
 func bubblesort( var a as array )
     for i from 1 to N
         for j from 0 to N - 1
