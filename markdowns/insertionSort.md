@@ -17,7 +17,8 @@ Best-Case Complexity: О(n)
 Worst-Case Complexity: О(n^2) 
 
 [Psuedo Code:](http://www.algorithmist.com/index.php/Insertion_sort)
-```
+
+```swift
 for i from 1 to N
    key = a[i]
    j = i - 1

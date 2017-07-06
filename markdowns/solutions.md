@@ -57,6 +57,7 @@ func selectionSort(_ array: [Int]) -> [Int] {
 ```
 
 ## Merge Sort: 
+
 ```swift
 func merge(arr1: [Int], arr2: [Int]) -> [Int] {
     var arr1Index = 0

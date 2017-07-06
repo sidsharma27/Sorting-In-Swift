@@ -17,7 +17,8 @@ Best-Case Complexity: O(n log(n))
 Worst-Case Complexity: O(n log(n)) 
 
 [Psuedo Code:](http://www.algorithmist.com/index.php/Merge_sort)
-```
+
+```swift
 func mergesort( var a as array )
      if ( n == 1 ) return a
 

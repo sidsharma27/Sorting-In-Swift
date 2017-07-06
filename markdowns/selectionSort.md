@@ -17,7 +17,8 @@ Best-Case Complexity: О(n^2)
 Worst-Case Complexity: О(n^2) 
 
 [Psuedo Code](http://www.algorithmist.com/index.php/Selection_sort)
-```
+
+```swift
 func selsrtI(lst)
     max = length(lst) - 1
 
