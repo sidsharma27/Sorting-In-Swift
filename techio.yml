@@ -10,9 +10,6 @@ plan:
     statement: markdowns/selectionSort.md  
   - title: Merge Sort
     statement: markdowns/mergeSort.md
-  - title: Solutions
-    statement: markdowns/solutions.md
-
 
 projects:
   playground-zhwphpvi:

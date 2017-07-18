@@ -43,3 +43,26 @@ end func
 
 
 @[Add the code to sort the array using the Insertion Sort algorithm]({"stubs": ["selectionSort/Sources/selectionSort.swift"], "command": "/bin/bash selectionSort.sh"})
+
+::: Stuck? Check the solution here
+```swift
+func selectionSort(_ array: [Int]) -> [Int] {
+    guard array.count > 1 else { return array }  
+
+    var arr = array                    
+
+    for x in 0 ..< arr.count - 1 {  
+        var lowest = x
+        for y in x + 1 ..< arr.count {
+            if arr[y] < arr[lowest] {
+                lowest = y
+            }
+        }
+        if x != lowest {
+            swap(&arr[x], &arr[lowest])
+        }
+    }
+    return arr
+}
+```
+:::

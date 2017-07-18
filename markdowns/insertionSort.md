@@ -32,3 +32,19 @@ for i from 1 to N
 
 
 @[Add the code to sort the array using the Insertion Sort algorithm]({"stubs": ["insertionSort/Sources/insertionSort.swift"], "command": "/bin/bash insertionSort.sh"})
+
+::: Stuck? Check the solution here
+```swift
+func insertionSort(_ array: [Int]) -> [Int] {
+    var arr = array
+    for x in 1..<arr.count {
+        var y = x
+        while y > 0 && arr[y] < arr[y - 1] {
+            swap(&arr[y - 1], &arr[y])
+            y -= 1
+        }
+    }
+    return arr
+}
+```
+:::
